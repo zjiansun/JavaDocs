@@ -1,4 +1,5 @@
 #Challenge #1: FizzBuzz
+
 The rules of the FizzBuzz challenge are as follows:
 
 1. Print the numbers 1 - 100, but:
