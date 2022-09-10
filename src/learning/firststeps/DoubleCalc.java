@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package learning.firststeps;
 import java.util.Scanner;
 
 public class DoubleCalc {
