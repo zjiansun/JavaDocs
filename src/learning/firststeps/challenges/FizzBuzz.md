@@ -1,4 +1,4 @@
-# Challenge #1: FizzBuzz
+# Challenge #1: FizzBuzz 
 
 The rules of the FizzBuzz challenge are as follows:
 
