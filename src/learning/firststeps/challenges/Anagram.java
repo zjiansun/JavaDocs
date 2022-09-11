@@ -9,13 +9,13 @@ public class Anagram {
 
         String first = sc.nextLine();
         first = first.toLowerCase();
-        char[] firstWord = first.toCharArray();
+        char[] firstWord = first.toCharArray(); //convert into array of its characters
         String second = sc.nextLine();
         second = second.toLowerCase();
         char[] secondWord = second.toCharArray();
 
-        Arrays.sort(firstWord);
-        Arrays.sort(secondWord);
+        Arrays.sort(firstWord); //sort in alphabetical order
+        Arrays.sort(secondWord); //^^
         System.out.println(Arrays.equals(firstWord, secondWord));
 
     }
