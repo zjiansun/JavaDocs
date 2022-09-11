@@ -17,5 +17,6 @@ public class Anagram {
         Arrays.sort(firstWord);
         Arrays.sort(secondWord);
         System.out.println(Arrays.equals(firstWord, secondWord));
+
     }
 }
