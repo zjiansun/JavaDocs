@@ -25,7 +25,14 @@ public class SoccerMatch {
                     System.out.println("You both attacked the ball. In vain");
                     ballPos = ballPos;
                     System.out.println(ballStatus(ballPos));
-                }
+                } //TODO: ATTACK vs DRIBBLE
+                //TODO: ATTACK vs DEFEND
+                //TODO: DRIBBLE vs ATTACK
+                //TODO: DRIBBLE vs DRIBBLE
+                //TODO: DRIBBLE vs DEFEND
+                //TODO: DEFEND vs ATTACK
+                //TODO: DEFEND vs DRIBBLE
+                //TODO: DEFEND vs DEFEND
 
         }
 
