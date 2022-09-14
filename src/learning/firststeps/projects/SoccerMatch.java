@@ -25,9 +25,17 @@ public class SoccerMatch {
                     System.out.println("You both attacked the ball. In vain");
                     ballPos = ballPos;
                     System.out.println(ballStatus(ballPos));
-                } //TODO: ATTACK vs DRIBBLE
-                //TODO: ATTACK vs DEFEND
-                //TODO: DRIBBLE vs ATTACK
+                } else if(myMove == 1 && opMove == 2){
+                    //TODO: ATTACK vs DRIBBLE
+                    System.out.println("The opponent outplayed you with his dribbles. You lost the ball.");
+                    ballPos = ballPos-1;
+                    System.out.println(ballStatus(ballPos));
+                } else if(myMove == 1 && opMove == 3){
+                    //TODO: ATTACK vs DEFEND
+                    System.out.println("The opponent defended the ball. It stayed at the same place");
+                    ballPos = ballPos;
+                    System.out.println(ballStatus(ballPos));
+                }
                 //TODO: DRIBBLE vs DRIBBLE
                 //TODO: DRIBBLE vs DEFEND
                 //TODO: DEFEND vs ATTACK
